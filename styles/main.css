@@ -1,16 +1,35 @@
+/* I can't not fix the typography */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 
+/* universal styles */
 body {
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
+	width: 457px;
+	padding: 10px;
 }
 
-h1 {font-size: 2.5em; font-weight: 400;}
-h2 {font-size: 1.25em; font-weight: 400;}
+h1 {
+	font-size: 1.85em; 
+	font-weight: 400;
+	line-height: 1.25em;
+}
+
+h2 {
+	font-size: 1em; 
+	font-weight: 400;
+	margin-top: 1.5em;
+}
 
 a {
 	text-decoration: none;
 	color: #fff;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
 
 button {
@@ -19,16 +38,55 @@ button {
 	border: 10px solid #212934;
 	box-sizing: content-box;
 	width: 12.5em;
+	margin-top: 2em;
 }
 
+/* header styles */
 header {
 	height: 2.874em;
 	background-color: #118bc0;
 }
 
+
+/* first section - hero content - styles */
+
 .hero {
 	height: 59.35em;
 	background-color: #344051;
-	padding-top: 10.65em;
+	padding-top: 9.125em;
+	text-align: center;
+}
+
+.braggery {
+	margin: 0 3em;
+}
+
+.arrow {
+	height: 1.25em;
+	background-color: #fff;
+	margin: 12em auto 0 auto;
+	width: 2.75em;
+}
+
+.learn_more ul {
+	display: block;
+	margin-top: 8.375em;
+}
+
+.learn_more ul li {
+	height: 4.0625em;
+	background-color: #fff;
+	margin: 0 4.6875em 1.875em 4.6875em;
+}
+
+/* more features section styles */
+
+.more_features {
+	height: 90.875em;
+}
+
+/* footer styles */
+footer {
+	background-color: #000;
 	text-align: center;
 }
