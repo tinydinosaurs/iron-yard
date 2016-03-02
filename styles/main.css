@@ -13,12 +13,14 @@ h1 {
 	font-size: 1.85em; 
 	font-weight: 400;
 	line-height: 1.25em;
+	margin-bottom: 1.25em;
+
 }
 
 h2 {
 	font-size: 1em; 
 	font-weight: 400;
-	margin-top: 1.5em;
+	margin: 0;
 }
 
 a {
@@ -41,6 +43,13 @@ button {
 	margin-top: 2em;
 }
 
+
+article {
+	height: 12.5em;
+	background-color: #e8f0f5;
+}
+
+
 /* header styles */
 header {
 	height: 2.874em;
@@ -51,9 +60,9 @@ header {
 /* first section - hero content - styles */
 
 .hero {
-	height: 59.35em;
 	background-color: #344051;
 	padding-top: 9.125em;
+	padding-bottom: 4.6875em;
 	text-align: center;
 }
 
@@ -83,10 +92,32 @@ header {
 
 .more_features {
 	height: 90.875em;
+	background-color: #d1d3d7;
+}
+
+article {
+	height: 12.5em;
+	background-color: #e8f0f5;
 }
 
 /* footer styles */
 footer {
 	background-color: #000;
 	text-align: center;
+	padding: 1.25em;
+}
+
+footer ul {margin: 0 1.5em;}
+
+footer ul li {
+	display: inline;
+	font-size: 0.65em;
+	margin-right: 1.25em;
+}
+
+.partner {
+	height: 1.375em;
+	width: 8.25em;
+	background-color: #fff;
+	margin: 1em auto 0 auto;
 }
