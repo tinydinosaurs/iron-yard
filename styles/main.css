@@ -91,13 +91,31 @@ header {
 /* more features section styles */
 
 .more_features {
-	height: 90.875em;
+	height: 113em;
 	background-color: #d1d3d7;
+	text-align: center;
 }
 
 article {
 	height: 12.5em;
 	background-color: #e8f0f5;
+}
+
+.feature_block {
+	background: none;
+	height: 86.125em;
+	padding-top: 1.875em;
+}
+
+.more_features ul li {
+	height: 12.5em;
+	background-color: #fff;
+	margin: 0 0.75em 1.875em 0.75em;
+}
+
+.more_features button {
+	border: 0px solid white;
+	margin: 8em auto 0 auto;
 }
 
 /* footer styles */
