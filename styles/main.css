@@ -46,12 +46,6 @@ button {
 }
 
 
-article {
-	height: 12.5em;
-	background-color: #e8f0f5;
-}
-
-
 /* header styles */
 header {
 	height: 2.874em;
@@ -138,13 +132,12 @@ header {
 /* features section styles */
 
 .more_features {
-	height: 113em;
 	background-color: #d1d3d7;
 	text-align: center;
 }
 
 article {
-	height: 12.5em;
+	/*height: 12.5em;*/
 	background-color: #e8f0f5;
 }
 
@@ -191,6 +184,7 @@ article {
 	border: 0px solid white;
 	margin: 8em auto 0 auto;
 }
+
 
 /* footer styles */
 footer {
