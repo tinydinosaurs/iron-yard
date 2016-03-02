@@ -5,7 +5,6 @@
 body {
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
-	width: 457px;
 	padding: 10px;
 }
 
@@ -20,6 +19,9 @@ h1 {
 h2 {
 	font-size: 1em; 
 	font-weight: 400;
+}
+
+p, h2, h3 {
 	margin: 0;
 }
 
@@ -57,15 +59,24 @@ header {
 	clear: both;
 }
 
+
 .logo {
 	width: 2em;
 	height: 2em;
 	background-color: #fff;
-	margin: 0.5em 0 0.5em 0.75em;
 	float: left;
+	display: inline-block;
+	vertical-align: middle;
 }
 
-.tagline {width: 8em;}
+.logo_text {
+	float: left;
+	width: 5em;
+	line-height: 1.437em;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
 
 .login {
 	width: 5em;
@@ -94,33 +105,33 @@ header {
 	width: 2.75em;
 }
 
-.learn_more ul {
-	display: block;
-	margin-top: 8.375em;
-	clear: both;
+
+.learn_more {
+	margin: 8.375em 3em 0 3em;
 }
 
-.learn_more ul li {
-	height: 4.0625em;
-	background-color: #fff;
-	margin: 0 4.6875em 1.875em 4.6875em;
-}
-
-
-.learn_more img {
+.icon {
 	height: 3.5em;
 	width: 3em;
-	background-color: #616e7f;
-	margin-top: 0.5625em;
+	background-color: #fff;
+	float: left;
+	margin-right: 1em;
+/*	display: inline-block; */
+
+}
+
+.icon_text {
 	float: left;
 }
 
-.learn_more p {
-	height: 3.5em;
-	width: 15.5em;
-	background-color: #616e7f;
-	margin: 0 0.25em;
-	float: right;
+.learn_more ul {
+	margin-top: 8.375em;
+}
+
+.learn_more ul li {
+	overflow: hidden;
+	text-align: left;
+	margin-bottom: 2em;
 }
 
 
@@ -137,9 +148,13 @@ article {
 	background-color: #e8f0f5;
 }
 
+.callout {
+	color: #344051;
+}
+
 .feature_block {
 	background: none;
-	height: 86.125em;
+	height: 92em;
 	padding-top: 1.875em;
 }
 
