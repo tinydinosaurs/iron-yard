@@ -54,8 +54,25 @@ article {
 header {
 	height: 2.874em;
 	background-color: #118bc0;
+	clear: both;
 }
 
+.logo {
+	width: 2em;
+	height: 2em;
+	background-color: #fff;
+	margin: 0.5em 0 0.5em 0.75em;
+	float: left;
+}
+
+.tagline {width: 8em;}
+
+.login {
+	width: 5em;
+	height: 2.874em;
+	background-color: #0070a4;
+	float: right;
+}
 
 /* first section - hero content - styles */
 
@@ -80,6 +97,7 @@ header {
 .learn_more ul {
 	display: block;
 	margin-top: 8.375em;
+	clear: both;
 }
 
 .learn_more ul li {
@@ -88,7 +106,25 @@ header {
 	margin: 0 4.6875em 1.875em 4.6875em;
 }
 
-/* more features section styles */
+
+.learn_more img {
+	height: 3.5em;
+	width: 3em;
+	background-color: #616e7f;
+	margin-top: 0.5625em;
+	float: left;
+}
+
+.learn_more p {
+	height: 3.5em;
+	width: 15.5em;
+	background-color: #616e7f;
+	margin: 0 0.25em;
+	float: right;
+}
+
+
+/* features section styles */
 
 .more_features {
 	height: 113em;
@@ -111,6 +147,29 @@ article {
 	height: 12.5em;
 	background-color: #fff;
 	margin: 0 0.75em 1.875em 0.75em;
+	padding-top: 1em;
+}
+
+.feature_icon, .feature_block h2, .feature_block p {
+	background-color: #c7d2d8;
+	margin: 0 auto;
+}
+
+.feature_icon {
+	height: 4em;
+	width: 4em;
+}
+
+.feature_block h2 {
+	height: 1.5em;
+	width: 25em;
+	margin-top: 0.75em;
+}
+
+.feature_block p {
+	height: 3em;
+	width: 25em;
+	margin-top: 0.75em;
 }
 
 .more_features button {
