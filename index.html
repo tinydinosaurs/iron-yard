@@ -3,12 +3,13 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Fake Wordpress is better than real Wordpress</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
 		<link rel="stylesheet" type="text/css" href="styles/main.css">
 	</head>
 	<body>
 
-	<header><!-- site header -->
+	<header class="wp_header"><!-- site header -->
 		<div class="logo_set">
 			<div class="logo"></div>
 			<p class="logo_text">Wordpress<span>.com</span></p>
@@ -25,26 +26,35 @@
 			</button>
 		</div>
 
-		<div class="arrow"></div> <!-- this is for the little down arrow. I'm just using an image in a div, because it's too early for :before and :after right now. -->
+		<div class="arrow">
+			<i class="fa fa-chevron-down"></i>
+		</div> 
 			
 		<div class="learn_more">
 			<ul>
 				<li>
-					<div class="icon"></div>
+					<div class="icon">
+						<i class="fa fa-tablet"></i>
+					</div>
+
 					<div class="learn">
 						<h3>Ready for Mobile</h3>
 						<p>Download the iOS or Android app</p>
 					</div>	
 				</li>
 				<li>
-					<div class="icon"></div>
+					<div class="icon">
+						<i class="fa fa-newspaper-o"></i>
+					</div>
 					<div class="learn">
 						<h3>Freshly Pressed</h3>
 						<p>Strong voices from around the world</p>
 					</div>
 				</li>
 				<li>
-					<div class="icon"></div>
+					<div class="icon">
+						<i class="fa fa-paint-brush"></i>
+					</div>
 					<div class="learn">
 						<h3>Hundreds of Designs</h3>
 						<p>Find your unique style</p>
@@ -65,32 +75,44 @@
 		<article class="feature_block">
 			<ul>
 				<li>
-					<div class="feature_icon"></div>
+					<div class="feature_icon">
+						<i class="fa fa-lightbulb-o"></i>
+					</div>
 					<h2>Easy to use</h2>
 					<p>WordPress.com lets you create beautiful and powerful websites or blogs.</p>
 				</li>
 				<li>
-					<div class="feature_icon"></div>
+					<div class="feature_icon">
+						<i class="fa fa-cloud"></i>
+					</div>
 					<h2>Your own domain name</h2>
 					<p>We’ll set up and configure your custom domain so that you can start using it in seconds.</p>
 				</li>
 				<li>
-					<div class="feature_icon"></div>
+					<div class="feature_icon">
+						<i class="fa fa-code"></i>
+					</div>
 					<h2>Search engine and SEO friendly</h2>
 					<p>WordPress.com is optimized for SEO and getting your site in front of searchers on Google, Bing, Yahoo, and others.</p>
 				</li>
 				<li>
-					<div class="feature_icon"></div>
+					<div class="feature_icon">
+						<i class="fa fa-comments-o"></i>
+					</div>
 					<h2>The best support</h2>
 					<p>Our Happiness Engineers work night and day through live chat, email, support pages, and forums to answer any questions you have.</p>
 				</li>
 				<li>
-					<div class="feature_icon"></div>
+					<div class="feature_icon">
+						<i class="fa fa-gift"></i>
+					</div>
 					<h2>Premium plans</h2>
 					<p>Our premium plans give you more control with additional customization options. They all come with free trials.</p>
 				</li>
 				<li>
-					<div class="feature_icon"></div>
+					<div class="feature_icon">
+						<i class="fa fa-globe"></i>
+					</div>
 					<h2>Millions of Users</h2>
 					<p>We welcome 50,000 new sites every day. From small business sites, artist portfolios, and blogs, to giant media organizations like TIME and CNN.</p>
 				</li>
@@ -120,7 +142,7 @@
 			</ul>
 		</nav>
 		
-		<div class="partner"></div>
+		<div class="footer-automatic-logo"></div>
 		
 	</footer>
 
